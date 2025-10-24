@@ -1,0 +1,27 @@
+
+/*A virgula separa cada umas tags, formatando as de forma independente*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 25px auto 0;
+}
+/*Ira substituir a formatação interior (cascata)*/
+table{
+    width: 100%;
+}
+
+th{
+    background: rgb(183, 186, 189);
+
+    color: black;
+}
+
+/*Mais especifico, sera o TD dentro do TR do TFOOT*/
+tfoot td tr{
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(243, 203, 210);
+}
+
